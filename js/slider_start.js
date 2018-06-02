@@ -1,0 +1,1 @@
+$('.js-slider').slick({dots: true,speed: 800,adaptiveHeight: true,autoplay: true,autoplaySpeed: 5000});
