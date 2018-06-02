@@ -1,0 +1,1 @@
+$(function(){var i=$(".js-hide-menu"),t=$(".menu__main");i.on("click",function(){if(0===t.height()){var i=t.css({height:"auto"}).outerHeight();return t.css({height:"0"}),t.animate({height:i},500),!1}return t.animate({height:0},500),!1}),$(window).on("resize",function(){551<$(window).width()&&t.attr("style"," ")})});
