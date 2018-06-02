@@ -1,6 +1,6 @@
 $(function () {
     var $button_hidden = $(".js-hide-menu");
-    var $menu_main = $(".menu__main");
+    var $menu_main = $(".js-menu__main");
 
     $button_hidden.on("click", function () {
 
